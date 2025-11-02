@@ -25,7 +25,8 @@ class ChopeTab(Element):
                             'Fun fact: ',
                             a(
                                 '.link-underline.link-underline-opacity-25.link-offset-2',
-                                href='https://github.com/hanstjua/portfolio/blob/main/app/main.py'
+                                href='https://github.com/hanstjua/portfolio/blob/main/app/main.py',
+                                target='_blank'
                             )[
                                 'This site is written entirely with Chope'
                             ],

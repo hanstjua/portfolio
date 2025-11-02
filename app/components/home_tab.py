@@ -68,6 +68,7 @@ class HomeTab(Element):
                 aria_labelledby=f'{cls.TITLE}-tab',
                 tabindex='0'
             )[
+                style[ANIMATION_CSS],
                 div('.d-flex.flex-column.justify-content-center.align-items-start.container', style='height: 100vh;')[
                     style[
                         Css[
@@ -94,7 +95,7 @@ class HomeTab(Element):
                     ],
                     div('.normal.mb-5.z-1')[
                         "you can find out what I do <i>at work</i> ",
-                        a('.link-underline.link-underline-opacity-25.link-offset-2', href='#')[b['here']],
+                        a('.link-underline.link-underline-opacity-25.link-offset-2', href='/assets/resume.pdf', target='_blank')[b['here']],
                         '.'
                     ],
                     div('.z-1')[
@@ -109,8 +110,6 @@ class HomeTab(Element):
                         ]
                     ]
                 ],
-                
-                style[ANIMATION_CSS],
                 div('.d-flex.flex-column.z-0.align-items-end.justify-content-start.blur-bg')[
                     style[
                         Css[
