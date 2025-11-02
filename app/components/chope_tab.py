@@ -23,7 +23,12 @@ class ChopeTab(Element):
                         ],
                         i('.fs-5.mb-4')[
                             'Fun fact: ',
-                            a('.link-underline.link-underline-opacity-25.link-offset-2', href='https://github.com/hanstjua/portfolio')['This site is written entirely with Chope'],
+                            a(
+                                '.link-underline.link-underline-opacity-25.link-offset-2',
+                                href='https://github.com/hanstjua/portfolio/blob/main/app/main.py'
+                            )[
+                                'This site is written entirely with Chope'
+                            ],
                             '.'
                         ],
                         a('.btn.btn-secondary', href='https://github.com/hanstjua/chope', target='_blank')[
