@@ -30,7 +30,7 @@ class JaigerTab(Element):
                     ],
                     div('.flex-grow-1.d-flex.align-items-start.flex-column.justify-content-center')[
                         img(
-                            src='/assets/jaiger.png',
+                            src='/portfolio-assets/jaiger.png',
                             alt='An example of AI agent built with Jaiger.',
                             style='object-fit: contain; height: 100%; width: 100%'
                         )
