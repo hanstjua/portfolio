@@ -95,7 +95,7 @@ class HomeTab(Element):
                     ],
                     div('.normal.mb-5.z-1')[
                         "you can find out what I do <i>at work</i> ",
-                        a('.link-underline.link-underline-opacity-25.link-offset-2', href='/assets/resume.pdf', target='_blank')[b['here']],
+                        a('.link-underline.link-underline-opacity-25.link-offset-2', href='/portfolio-assets/resume.pdf', target='_blank')[b['here']],
                         '.'
                     ],
                     div('.z-1')[
